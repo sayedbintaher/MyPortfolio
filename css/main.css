@@ -79,6 +79,28 @@ p {
 }
 
 
+.main-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-skills li {
+    flex-basis: calc(33.33% - 10px); 
+    margin: 5px;
+    padding: 10px;
+}
+
+/* Style the sub-skills lists */
+.sub-skills {
+    padding-left: 20px;
+}
+
+.sub-skills li {
+    margin: 5px 0;
+}
+
+
 .card-img-wrapper{
 	overflow: hidden;
 	position: relative;
@@ -1587,7 +1609,7 @@ input[type=text],
     font-size: 11px;
     line-height: 1.2em;
     top: 15px;
-    left: 95px;
+    left: 120px;
     position: absolute;
     opacity: 0;
     -webkit-transition: all .3s ease-in-out;
